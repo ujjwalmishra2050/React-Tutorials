@@ -1,9 +1,17 @@
-import { StrictMode } from 'react'
+import React  from 'react'
+import ReactDOM from 'react-dom/client'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
+
+
+// let AnotherElement = (
+//   <a href="https://www.google.com" target='_blank'>Vist Google</a>
+// )
+// let ReactElement = React.createElement('a',{href :'http://www.google.com' , target:'_blank'} , 'Clik To visit'
+
+// )
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+//  AnotherElement
+// ReactElement
 )
