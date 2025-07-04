@@ -6,4 +6,4 @@ function AddTodos() {
   )
 }
 
-export default AddTodos
+export default AddTodo
