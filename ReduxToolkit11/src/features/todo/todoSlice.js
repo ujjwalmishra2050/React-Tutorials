@@ -9,7 +9,7 @@ function sayHello (){
 }
 export const todoSlice = createSlice({
     name :'todo' , 
-    initialState,
+    initState,
     reducers:{
         addTodo:(state , action)=>{
          const todo ={
